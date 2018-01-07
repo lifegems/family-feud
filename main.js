@@ -170,6 +170,16 @@ var app = {
          }
          isThemePlaying = !isThemePlaying;
       });
+      var isWinnerPlaying = false;
+      $('.winner').click(function() {
+         if (isWinnerPlaying) {
+            $('#winner')[0].pause();
+            $('#winner')[0].currentTime = 0;
+         } else {
+            $('#winner')[0].play();
+         }
+         isWinnerPlaying = !isWinnerPlaying;
+      });
    }
 }
 app.init()

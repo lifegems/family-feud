@@ -44,7 +44,7 @@ var app = {
       console.clear();
       app.allData = data;
       app.questions = Object.keys(data);
-      app.shuffle(app.questions);
+      // app.shuffle(app.questions);
       app.makeQuestion(app.currentQ);
       $('body').append(app.board);
    },
@@ -102,6 +102,7 @@ var app = {
 
       function showCard() {
          var card = $('.card', this);
+         $('#correct')[0].play();
          var flipped = $(card).data("flipped");
          var cardRotate = (flipped) ? 0 : -180;
          TweenLite.to(card, 1, { rotationX: cardRotate, ease: Back.easeOut });
@@ -158,6 +159,17 @@ var app = {
       app.board.find('#newQuestion').on('click', app.changeQuestion);
       app.board.find('#awardTeam1').on('click', app.awardPoints);
       app.board.find('#awardTeam2').on('click', app.awardPoints);
+      $('.strike').click(function() {$('#strike')[0].play()});
+      var isThemePlaying = false;
+      $('.theme').click(function() {
+         if (isThemePlaying) {
+            $('#theme')[0].pause();
+            $('#theme')[0].currentTime = 0;
+         } else {
+            $('#theme')[0].play();
+         }
+         isThemePlaying = !isThemePlaying;
+      });
    }
 }
 app.init()

@@ -1,51 +1,51 @@
 {
   "Who is the most beautiful woman in the Bible?": [
-      ["Esther", 11],
-      ["Sarah", 4],
-      ["Eve", 3],
-      ["Abishag", 2],
-      ["Rebekah", 1],
-      ["Mary", 1],
-      ["Hannah", 1],
-      ["Tamar", 1],
-      ["Keren-happuch", 1]
+      ["Esther", 44],
+      ["Sarah", 16],
+      ["Eve", 12],
+      ["Abishag", 8],
+      ["Rebekah", 4],
+      ["Mary", 4],
+      ["Hannah", 4],
+      ["Tamar", 4],
+      ["Keren-happuch", 4]
    ],
    "What is the most commonly used scripture in the ministry": [
-      ["Revelation 21:3,4", 14],
-      ["Psalm 83:18", 7],
-      ["John 17:3", 3],
-      ["Psalm 37:29", 1]
+      ["Revelation 21:3,4", 56],
+      ["Psalm 83:18", 28],
+      ["John 17:3", 12],
+      ["Psalm 37:29", 4]
    ],
    "What comes to mind when you hear the word 'Nazarite'?": [
-      ["Long Hair/Razor", 8],
-      ["Samson", 6],
-      ["No Alcohol", 6],
-      ["John the Baptizer", 2],
-      ["Vow", 2],
-      ["Self-sacrifice", 1]
+      ["Long Hair/Razor", 64],
+      ["Samson", 48],
+      ["No Alcohol", 48],
+      ["John the Baptizer", 16],
+      ["Vow", 16],
+      ["Self-sacrifice", 8]
    ],
    "Besides your bible, what is a must-have tool for the ministry?": [
-      ["Tablet/Phone", 14],
-      ["Publications (books/tracts/etc)", 6],
-      ["JW Library / jw.org", 2],
-      ["Contact Card", 1],
-      ["Smile", 1],
-      ["Prayer", 1]
+      ["Tablet/Phone", 168],
+      ["Publications (books/tracts/etc)", 72],
+      ["JW Library / jw.org", 24],
+      ["Contact Card", 12],
+      ["Smile", 12],
+      ["Prayer", 12]
    ],
    "What should you never say in the car group?": [
-      ["Discouraging / Negative talk", 9],
-      ["Gossip", 4],
-      ["Shopping / 'Make a stop at..'", 3],
-      ["No RVs", 2],
-      ["Are we there yet? / Drive faster!", 2],
-      ["'I passed gas' or 'Beano anyone?'", 2],
-      ["No breaks", 2],
-      ["How much time did we do?", 1]
+      ["Discouraging / Negative talk", 108],
+      ["Gossip", 48],
+      ["Shopping / 'Make a stop at..'", 36],
+      ["No RVs", 24],
+      ["Are we there yet? / Drive faster!", 24],
+      ["'I passed gas' or 'Beano anyone?'", 24],
+      ["No breaks", 24],
+      ["How much time did we do?", 12]
    ],
    "What is the number one break spot for a pioneer?": [
-      ["Starbucks / Coffee shop", 15],
-      ["Dunkin' Donuts / Daddy's Donuts", 4],
-      ["Gas Station", 3],
-      ["Fast Food", 3]
+      ["Starbucks / Coffee shop", 180],
+      ["Dunkin' Donuts / Daddy's Donuts", 48],
+      ["Gas Station", 36],
+      ["Fast Food", 36]
    ]
 }
